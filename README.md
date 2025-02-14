@@ -16,8 +16,11 @@ The model utilizes **ResNet18** as a pre-trained backbone for feature extraction
   - Random Rotation
   - Random Resized Crop
   - Color Jittering
+  - 
   
-![Organ Classifier Overview](IMGES\Screenshot 2025-02-13 114225.png)
+![Organ Classifier Overview](https://github.com/Ahmed7Saker/Oragan-Clasifier/blob/main/IMGES/Screenshot%202025-02-14%20034833.png)
+
+![oragan](https://github.com/Ahmed7Saker/Oragan-Clasifier/blob/main/IMGES/Screenshot%202025-02-13%20114225.png)
 
 
 - **GPU Support**: Automatically detects and utilizes GPU if available for faster training.

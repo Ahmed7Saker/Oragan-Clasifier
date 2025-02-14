@@ -48,11 +48,6 @@ To install all the required libraries, use the following command:
 ```bash
 pip install torch torchvision
 ```
-Or, if you have a `requirements.txt` file:
-```bash
-pip install -r requirements.txt
-```
-
 ## Data Requirements
 - The dataset is organized into three directories: `training`, `val`, and `testing`.
 - The images are expected to be sorted into subdirectories for each class.

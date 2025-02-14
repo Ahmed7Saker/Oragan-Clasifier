@@ -65,9 +65,11 @@ pip install -r requirements.txt
 ## How to Use
 1. **Clone the Repository:**
 ```bash
-git clone < https://github.com/Ahmed7Saker/Oragan-Clasifier.git >
-git branch -M main
-git push -u origin main>
+## How to Use
+1. **Clone the Repository:**
+```bash
+git clone https://github.com/Ahmed7Saker/Oragan-Clasifier.git
+git branch -M your branch 
 ```
 2. **Create Virtual Environment (Optional but recommended):**
 ```bash

@@ -16,9 +16,14 @@ The model utilizes **ResNet18** as a pre-trained backbone for feature extraction
   - Random Rotation
   - Random Resized Crop
   - Color Jittering
+  
+![Organ Classifier Overview](IMGES\Screenshot 2025-02-13 114225.png)
+
+
 - **GPU Support**: Automatically detects and utilizes GPU if available for faster training.
 - **Checkpointing**: Saves the model with the best validation accuracy as `organ_classifier.pth`.
 - **Validation Accuracy Display**: Displays the validation accuracy after each epoch.
+
 
 ## Project Structure
 ```
@@ -57,7 +62,9 @@ pip install -r requirements.txt
 ## How to Use
 1. **Clone the Repository:**
 ```bash
-git clone <repository_url>
+git clone < https://github.com/Ahmed7Saker/Oragan-Clasifier.git >
+git branch -M main
+git push -u origin main>
 ```
 2. **Create Virtual Environment (Optional but recommended):**
 ```bash

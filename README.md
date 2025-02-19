@@ -1,34 +1,5 @@
 # 🧠🖐️🦵🫁 Organ Classifier Using Transfer Learning
 
-## 📋 Project Overview
-This project is a **Deep Learning-based Organ Classifier** built using PyTorch and Transfer Learning. It classifies medical images into the following categories:
-- **Brain** 🧠
-- **Hands** 🖐️
-- **Knee** 🦵
-- **Lungs** 🫁
-
-The model utilizes **ResNet18** as a pre-trained backbone for feature extraction, followed by a customized fully connected layer for classification into four categories.
-
-## ✨ Features
-- **Transfer Learning with ResNet18**: Utilizes a pre-trained ResNet18 model for faster and more accurate training. 🚀
-- **Data Augmentation**: Includes multiple data augmentation techniques like:
-  - Random Horizontal Flip 🔄
-  - Random Rotation 🔄
-  - Random Resized Crop 🌾
-  - Color Jittering 🎨
-- **GPU Support**: Automatically detects and utilizes GPU if available for faster training. �
-- **Checkpointing**: Saves the model with the best validation accuracy as `organ_classifier.pth`. 💾
-- **Validation Accuracy Display**: Displays the validation accuracy after each epoch. 📊
-
-![Organ Classifier Overview](https://github.com/Ahmed7Saker/Oragan-Clasifier/blob/main/IMGES/Screenshot%202025-02-14%20034833.png)
-
-![Organ](https://github.com/Ahmed7Saker/Oragan-Clasifier/blob/main/IMGES/Screenshot%202025-02-13%20114225.png)
-
-## 📂 Project Structure
-
-- **GPU Support**: Automatically detects and utilizes GPU if available for faster training.
-- **Checkpointing**: Saves the model with the best validation accuracy as `organ_classifier.pth`.
-- **Validation Accuracy Display**: Displays the validation accuracy after each epoch.
 
 
 # 📊 Organ Classifier Using Transfer Learning
